@@ -11,10 +11,12 @@ git clone https://github.com/0xhadiworld/certificate-domains.git
 cd certificate-domains
 pip install -r requirements.txt  # Corrected typo in requirements
 python3 main.py -h
+```
 
-# Usage
+## Usage
+```bash
 # Basic Usage
 python3 main.py -o Example
 # Save Results to a File
 python3 main.py -o Example -f output.txt
-
+```
