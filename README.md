@@ -9,12 +9,12 @@ A tool for extracting domains based on SSL/TLS certificates from the Crt.sh webs
 ```bash
 git clone https://github.com/0xhadiworld/certificate-domains.git
 cd certificate-domains
-pip install -r reuirements
-python3 main.py -h```
+pip install -r requirements.txt  # Corrected typo in requirements
+python3 main.py -h
 
-## Usage
-```bash
+# Usage
+# Basic Usage
 python3 main.py -o Example
-# If you want to save result in to file
-python3 main.py -o Example -f output.txt```
+# Save Results to a File
+python3 main.py -o Example -f output.txt
 
